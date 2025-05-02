@@ -1,0 +1,30 @@
+/* h1{
+    display: inline;
+    background-color:blue
+}
+span{
+    display:block;
+    background-color: brown;
+}
+#para{
+    color:aqua;
+    border-radius:10%;
+    border:2px solid black;
+    width:50px;
+    height:100px;
+    margin:10px;
+
+
+} */
+div{
+    height:200px;
+    width:200px;
+    background-color: greenyellow;
+    border:2px solid black;
+    margin:5px;
+    display:inline-block;
+}
+#third{
+    display:none;
+    
+}

@@ -1,0 +1,32 @@
+#mainTopic{
+    color:blue;
+
+}
+*{
+    text-align: center;
+}
+h1,h3,h5{
+font-family: Georgia;
+color:aqua;
+}
+#ppp{
+    color:white;
+    background-color: cornflowerblue;
+}
+ div button{
+    background-color:rebeccapurple;
+    color:red;
+}
+button:hover{
+    background-color: yellow;
+    color:blue
+}
+h1::first-letter{
+    color:red;
+}
+p:nth-of-type(2n+1){
+    color:yellow
+}
+label {
+    color:darkgreen;
+}

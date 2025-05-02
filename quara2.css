@@ -1,0 +1,115 @@
+/* universal selector--- used for all overall html----"*" */
+
+/* h1,h2----seperate and irrespective of elements ---normally*/
+*{
+    background-color:rgb(247, 233, 233);
+    text-align: center;
+    font-family: 'Times New Roman';
+}
+h1,
+h3{
+    color:brown;
+}
+
+/* id selector---unique selector used for only specified selectors only -----#*/
+#login{
+    background-color: bisque;
+    color: black;
+}
+
+#signup{
+    background-color: azure;
+    color:black;
+}
+
+/* class selector---common */
+.upvote{
+    background-color: blueviolet;
+    color:rgb(16, 17, 16)
+}
+nav li a{
+    color:blueviolet;
+    background-color: chartreuse;
+}
+
+.post a{
+    color:peachpuff;
+    background-color: blue;
+}
+p+h3{
+    color:azure;
+    background-color: coral;
+    text-decoration: underline;
+
+}
+.upvote + button{
+    color:crimson;
+    background-color: rgb(178, 188, 161);
+}
+
+span > button{
+    color:burlywood;
+    background-color: darkorchid;
+}
+div >p{
+    color:black
+}
+
+input[type="text"]
+{
+    color:hotpink;
+
+}
+input[type="password"]
+{
+    color:rgb(13, 239, 239)
+}
+/* for general purpose */
+/* input[type]{
+color:black
+} */
+
+#myid{
+    color:green
+}
+/* input[id="myid"] 
+{
+    color:green;
+} */
+
+button:hover{
+    background-color: blueviolet;
+    color:aqua
+}
+button:active {
+    background-color:-moz-drag-over;
+    color:beige;
+
+}
+p:active{
+    font-weight:bold;
+    color:brown;
+}
+
+input [type="radio"]:checked + label{
+color:rgb(57, 183, 67);
+font-weight:bold;
+}
+
+.post:nth-of-type(2n+1)
+{
+background-color: darkgreen;
+color:rgb(141, 168, 168)
+}
+
+h1::first-letter {
+    color:rgb(228, 135, 21);
+}
+p::first-line {
+color:purple;
+}
+
+p::selection{
+background-color: rgb(89, 206, 99);
+
+}

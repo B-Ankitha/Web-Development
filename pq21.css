@@ -1,0 +1,30 @@
+/* div{
+    height:100px;
+    width:100px;
+    background-color:green;
+    border-color: red;
+    border-width: 2px;
+    border-radius: 50px;
+transition:2s;
+transition-delay: 1s;
+}
+div:hover{
+    background-color: blue;
+    /* border-radius: 50px; */
+/* } */
+
+div{
+    height:100px;
+    width:100px;
+    background-color:green;
+    margin:auto;
+    /* margin-top: 10px; */
+    /* transition: margin-top 2s ease-in 0.2; */
+
+}
+div:hover{
+    margin-top:400px;
+    background-color:gold;
+
+
+}

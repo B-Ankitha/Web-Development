@@ -1,0 +1,44 @@
+p{
+
+    text-align:center;
+    color:brown;
+    font-family: Georgia;
+line-height: 30px;
+}
+h1{
+    text-align: center;
+    font-family: Georgia;
+color:red;
+}
+h2{
+    text-align:center;
+    font-family: Georgia;
+
+}
+h3{
+    text-align: center;
+    color:black;
+    font-family: Georgia;
+
+}
+h4{
+    font-family: Georgia;
+    text-align: center;
+
+}
+button{
+    background-color:white;
+    color: blueviolet;
+}
+
+a{
+    color:green;
+    text-decoration: none;
+}
+textarea{
+    color:black;
+}
+span{
+    text-decoration: underline;
+    color:blue
+}
