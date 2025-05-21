@@ -1,0 +1,39 @@
+.container{
+    #width:200px;
+    padding:0;
+    margin:2px;
+    height: 100px;
+    display:grid;
+    grid-template-columns: repeat(12,lfr);
+    grid-template-rows: repeat(12,lfr);
+    grid-gap: 10px;
+    #background-color: blueviolet;
+
+}
+.container div{
+    background-color: pink;
+    font-size: 1.5em;
+}
+
+.header{
+    grid-column: 1/span 12;
+}
+.sidebar{
+    grid-column: 1/span 3;
+    grid-row: 2/span 10;
+}
+.navigation{
+    grid-column: 4/span 6;
+}
+
+.ads{
+    grid-column: 10/ span 3;
+    grid-row: 2/span 10;
+}
+.main{
+    grid-column: 4/span 6;
+    grid-row: 3/span 9;
+}
+.footer{
+    grid-column: 1/span 12;
+}
